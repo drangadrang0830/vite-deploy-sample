@@ -26,7 +26,7 @@ function ddd() {//每次觸發開關紅色類別
 }
 
 function eee() {//每次觸發判斷是否為綠色 若是 為藍色 若否 為綠色
-  ccc.value = ccc.value === 'yellow' ? 'pink' : 'yellow'
+  ccc.value = ccc.value === 'yellow' ? 'blue' : 'yellow'
 }
 
 </script>
