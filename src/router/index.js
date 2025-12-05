@@ -27,8 +27,43 @@ const router = createRouter({
     },
     {
       path: '/attribute',
-      name: 'attribute',
+      name: 'AttributeProperty',
       component: () => import('../views/AttributeProperty.vue'),
+    },
+    {
+      path: '/ifandfor',
+      name: 'IfAndFor',
+      component: () => import('../views/IfAndFor.vue'),
+    },
+    {
+      path: '/formcontrol',
+      name: 'FormControl',
+      component: () => import('../views/FormControl.vue'),
+    },
+    {
+      path: '/shoppingstore', // 商店外框
+      component: () => import('../views/DashboardView.vue'),
+      children: [
+        {
+          path: 'cart', // 商店內容
+          component: () => import('../views/CartView.vue'),
+        },
+      ],
+    },
+    {
+      path: '/testpage',
+      name: 'TestPage',
+      component: () => import('../views/TestPage.vue'),
+      children: [
+        {
+          path: 'easycomponents',
+          component: () => import('../views/EasyComponents.vue'),
+        },
+        {
+          path: 'gridview',
+          component: () => import('../views/GridView.vue'),
+        },
+      ],
     },
   ],
 })
