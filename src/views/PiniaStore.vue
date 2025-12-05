@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar bg-light">
       <div class="container-fluid">
-        <span class="navbar-brand" href="#">香香麵攤</span>
+        <span class="navbar-brand" href="#">臭臭餅乾店</span>
         <button type="button" class="btn nav-link">
           購物車
           <span class="badge rounded-pill bg-danger text-white">5</span>
