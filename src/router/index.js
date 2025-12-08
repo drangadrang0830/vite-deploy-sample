@@ -63,6 +63,10 @@ const router = createRouter({
           path: 'gridview',
           component: () => import('../views/GridView.vue'),
         },
+        {
+          path: 'treeview',
+          component: () => import('../views/TreeView.vue'),
+        },
       ],
     },
     {

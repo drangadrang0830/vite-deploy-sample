@@ -1,7 +1,9 @@
 <template>
   <form id="search">Search
+    <!--                                         ↓雙向綁定 -->
     <input type="text" name="query" v-model="searchQuery">
   </form>
+  <!--↓元件名  ↓接收資料↓傳遞資料   ↓接收資料↓傳遞資料       ↓接收資料    ↓傳遞資料 -->
   <DemoGrid :data="gridData" :columns="gridColumns" :filter-key="searchQuery"></DemoGrid>
 </template>
 

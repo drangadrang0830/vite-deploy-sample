@@ -7,6 +7,8 @@
         </router-link>
         <router-link class="list-group-item list-group-item-action" aria-current="true" to="/testpage/gridview">可搜尋排序的表格
         </router-link>
+        <router-link class="list-group-item list-group-item-action" aria-current="true" to="/testpage/treeview">樹狀視圖
+        </router-link>
 
       </div>
     </div>
