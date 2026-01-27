@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="col-8">
-      <router-view></router-view>
+      <RouterView></RouterView>
     </div>
   </div>
 </template>
